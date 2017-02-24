@@ -44,7 +44,7 @@ JNIEXPORT jint JNICALL Java_org_nanomsg_NanoLibrary_load_1symbols(JNIEnv* env,
                                "(I)V");
     NANO_ASSERT(mnew);
 
-    struct symbol symbols[100];
+    struct symbol symbols[150];
     int symi = 0;
 
     for (count = 0; ; ++count) {

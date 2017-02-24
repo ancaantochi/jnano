@@ -67,13 +67,9 @@ public class NanoTest
   public void testSymbols()
   {
     String[] names = {
-      "NN_VERSION_MAJOR",
-      "NN_VERSION_MINOR",
-      "NN_VERSION_PATCH",
       "NN_VERSION_CURRENT",
       "NN_VERSION_REVISION",
       "NN_VERSION_AGE",
-      "NN_VERSION",
       "AF_SP",
       "AF_SP_RAW",
       "NN_INPROC",
@@ -84,8 +80,6 @@ public class NanoTest
       "NN_SUB",
       "NN_REP",
       "NN_REQ",
-      "NN_SOURCE",
-      "NN_SINK",
       "NN_PUSH",
       "NN_PULL",
       "NN_SURVEYOR",

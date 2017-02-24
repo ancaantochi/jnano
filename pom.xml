@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Copyright (c) Microsoft. All rights reserved. --><!-- Licensed under the MIT license. See LICENSE file in the project root for full license information. --><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.nanomsg</groupId>
+    <artifactId>jnano</artifactId>
+    <version>0.1</version>
+    <name>Nano message</name>
+    
+     <dependencies>
+        <!--test dependencies-->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
+       
+    </dependencies>
+    
+     <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.3</version>
+                <configuration>
+                    <source>1.6</source>
+                    <target>1.6</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.19.1</version>
+                <!--<configuration>
+                    <workingDirectory>target</workingDirectory>
+                    <argLine>-Djava.library.path=D:\Work\jnano\build\c\sharedlibrary;D:\Work\ancaantochi\azure-iot-gateway-sdk\install-deps\bin</argLine>
+               </configuration>-->
+            </plugin>
+        </plugins>
+    </build>
+    
+</project>
