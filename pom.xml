@@ -33,7 +33,7 @@
                 <version>2.19.1</version>
                 <!--<configuration>
                     <workingDirectory>target</workingDirectory>
-                    <argLine>-Djava.library.path=D:\Work\jnano\build\c\sharedlibrary;D:\Work\ancaantochi\azure-iot-gateway-sdk\install-deps\bin</argLine>
+                    <argLine>-Djava.library.path=build\c\sharedlibrary;..\install-deps\bin</argLine>
                </configuration>-->
             </plugin>
         </plugins>
